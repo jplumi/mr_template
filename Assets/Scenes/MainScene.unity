@@ -1101,6 +1101,7 @@ GameObject:
   - component: {fileID: 752067092}
   - component: {fileID: 752067103}
   - component: {fileID: 752067102}
+  - component: {fileID: 752067104}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -1228,6 +1229,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _collider: {fileID: 752067092}
+--- !u!114 &752067104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 752067091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 992f8417db2a2ea48a334c9cc29ce2ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorSkin: {r: 0.9245283, g: 0.755494, b: 0.6497864, a: 0}
+  colorMuscle: {r: 0.8207547, g: 0.2573964, b: 0.2516465, a: 0}
+  colorBone: {r: 1, g: 1, b: 1, a: 0}
+  layers:
+  - {r: 0.9254902, g: 0.75686276, b: 0.6509804, a: 0}
+  - {r: 0.81960785, g: 0.25882354, b: 0.2509804, a: 0}
+  - {r: 1, g: 1, b: 1, a: 0}
 --- !u!1 &758326944
 GameObject:
   m_ObjectHideFlags: 0
@@ -1847,8 +1867,7 @@ MonoBehaviour:
   rotateSpeed: 100
   minScaleSize: 0.05
   maxScaleSize: 1.5
-  scaleSpeed: 1.75
-  test: 0
+  scaleSpeed: 1
 --- !u!4 &1489668469 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 482130, guid: 4b650a383c3760f449b65ff48bccdd5f, type: 3}
@@ -1870,8 +1889,7 @@ MonoBehaviour:
   rotateSpeed: 100
   minScaleSize: 0.05
   maxScaleSize: 1.5
-  scaleSpeed: 1.75
-  test: 0
+  scaleSpeed: 1
 --- !u!1 &1510207201
 GameObject:
   m_ObjectHideFlags: 0
